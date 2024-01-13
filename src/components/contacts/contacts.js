@@ -17,7 +17,7 @@ function Contacts() {
                         className="icon contact-icon email-icon"
                     />
                     <p className='contact-text'>
-                        <a href="mailto:medhaverma15@gmail.com" target='_blank'>medhaverma15@gmail.com</a>
+                        <a href="mailto:medhaverma15@gmail.com"  rel="noopener noreferrer" target='_blank'>medhaverma15@gmail.com</a>
                     </p>
                 </div>
                 <div className="contact-info-container">
@@ -27,7 +27,7 @@ function Contacts() {
                         className="icon contact-icon linkedin-icon"
                     />
                     <p className='contact-text'>
-                        <a href="https://www.linkedin.com" target='_blank' style={{ color: 'blue' }}>LinkedIn</a>
+                        <a href="https://www.linkedin.com" target='_blank' rel="noopener noreferrer" style={{ color: 'blue' }}>LinkedIn</a>
                     </p>
 
                 </div>
