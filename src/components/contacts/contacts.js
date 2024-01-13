@@ -27,7 +27,7 @@ function Contacts() {
                         className="icon contact-icon linkedin-icon"
                     />
                     <p className='contact-text'>
-                        <a href="https://www.linkedin.com" target='_blank' rel="noopener noreferrer" style={{ color: 'blue' }}>LinkedIn</a>
+                        <a href="www.linkedin.com/in/medha-verma-9ba15518a" target='_blank' rel="noopener noreferrer" style={{ color: 'blue' }}>LinkedIn</a>
                     </p>
 
                 </div>

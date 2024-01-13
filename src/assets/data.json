@@ -95,8 +95,8 @@
             "projectLandingPage": "/images/portfolio.png",
             "Name": "React Portfolio",
             "description": "Dynamic and responsive React-based portfolio providing an interactive and engaging glimpse into my professional journey.",
-            "Github":"https://github.com/MEDHA-21/React-Portfolio.git",
-            "Link":"https://mv-reactportfolio.netlify.app/"
+            "Github":"https://github.com/MEDHA-21/MV-React-Portfolio",
+            "Link":"https://mv-react-portfolio.netlify.app/"
         }
     ],
     "ContactMe": {
