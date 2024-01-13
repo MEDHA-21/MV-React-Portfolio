@@ -1,0 +1,82 @@
+#projects {
+    margin-top: 6rem;
+}
+
+.gitBtn {
+    background: white;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    display: inline-block;
+    color: black;
+    margin-top: 1.5rem;
+}
+
+.demoBtn {
+    background: rgb(45,206,137);
+    margin: 0.5rem;
+    padding: 0.5rem 0.8rem;
+    border: none;
+    border-radius: 0.5rem;
+    display: inline-block; 
+    color: black;
+}
+
+.projectLandingPageImg{
+    height: 12rem;
+}
+
+.git-icon{
+    height: 1.8rem;
+    margin-bottom: -5px;
+}
+.link-icon{
+    padding-left: 0.5rem;
+}
+.demoText{
+    font-weight: 600;
+    font-size: larger;
+}
+.projectName{
+    color: bisque;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 2rem 0rem;
+}
+
+.projects-card{
+    box-shadow: 0 4px 5px 3px bisque;
+    color: white;
+    background-color: transparent;
+    opacity: 0.9;
+    transition: all 0.5s ease 0s;
+    width: 100%; /* Full width on smaller screens */
+    max-width: 35%;
+    display: flex;
+    flex-direction: column;
+    padding: 1.2rem;
+    box-sizing: border-box;
+    border-radius: 2rem;
+}
+
+.projects-card:hover {
+    transform: scale(1.02) !important;
+    overflow: hidden !important;
+    box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+}
+
+.closeText{
+    color: white;
+    float: inline-end;
+    background-color: red;
+    margin-top: 2rem;
+    border-radius: 5px;
+    padding: 0.2rem 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .projects-card {
+        max-width: 100%;
+    }
+}

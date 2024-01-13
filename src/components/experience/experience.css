@@ -1,0 +1,69 @@
+#experience {
+    margin-top: 6rem;
+}
+
+.section__text__p1,
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.experience-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.experience-card {
+    box-shadow: 0 4px 5px 3px bisque;
+    color: white;
+    background-color: transparent;
+    opacity: 0.9;
+    transition: all 0.5s ease 0s;
+    width: 100%;
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 1.2rem;
+    box-sizing: border-box;
+    border-radius: 2rem;
+    margin: 0.5rem;
+
+}
+
+.experience-card:hover {
+    transform: scale(1.02) !important;
+    overflow: hidden !important;
+    box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+}
+
+.linkText {
+    color: bisque;
+    margin: 1rem;
+}
+
+.learMoreBtn {
+    color: bisque;
+    margin: 1rem;
+    width: 6rem;
+    box-shadow: 0 3px 3px 4px bisque !important;
+}
+
+.learMoreBtn:active {
+color: white;
+}
+
+.projectLandingPage {
+    border-radius: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .experience-card {
+        max-width: 100%;
+    }
+}
