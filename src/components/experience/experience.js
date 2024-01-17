@@ -9,7 +9,6 @@ const ExperienceCard = ({
     description,
     responsibilities,
     toolsUsed,
-    projectLandingPage,
 }) => {
     const [isPopupOpen, setPopupOpen] = useState(false);
 
@@ -23,8 +22,7 @@ const ExperienceCard = ({
 
     return (
         <div className="experience-card">
-            <img src={projectLandingPage} alt="Project Landing Page" className="projectLandingPage" />
-            <h3 className="projectName">{projectName}</h3>
+            <h3 className="expProjectName">{projectName}</h3>
             <h3>{role}</h3>
             <p>{timePeriod}</p>
 
@@ -71,7 +69,6 @@ function Experience() {
                         description={experience.Description}
                         responsibilities={experience.Responsibilities}
                         toolsUsed={experience['Tools Used']}
-                        projectLandingPage={experience.projectLandingPage}
                     />
                 ))}
             </div>
