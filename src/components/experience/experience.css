@@ -48,14 +48,38 @@
 }
 
 .learMoreBtn {
-    color: bisque;
     margin: 1rem;
-    width: 6rem;
-    box-shadow: 0 3px 3px 4px bisque !important;
+    width: 8rem;
+    background-color: #ffffff00;
+    color: #fff;
+    height: 2.9em;
+    border: bisque 0.2em solid;
+    border-radius: 11px;
+    text-align: right;
+    transition: all 0.6s ease;
+    padding-right: 7px;
+}
+
+.learMoreBtn:hover {
+    background-color:rgba(129, 72, 144, 0.561);
+    border:rgba(129, 72, 144, 0.561) 0.2em solid;
+    cursor: pointer;
 }
 
 .learMoreBtn:active {
 color: white;
+}
+
+.learMoreBtn svg {
+    width: 1.6em;
+    margin: -0.2em 0.8em 1em;
+    position: absolute;
+    display: flex;
+    transition: all 0.6s ease;
+}
+
+.learMoreBtn:hover svg {
+    transform: translateX(5px);
 }
 
 .expProjectName{

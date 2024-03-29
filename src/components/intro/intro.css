@@ -54,7 +54,18 @@
     border: none;
     border-radius: 2rem;
     float: inline-start;
-    color: black;
+    color: white;
+    background-image: linear-gradient(135deg, #fcb540 0%, #e59448 100%);
+    box-shadow: 0 7px 22px -2px  rgba(238, 103, 97, 0.5);
+    outline: none;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+}
+
+.btn:hover {
+    transform: translateY(3px);
+    box-shadow: none;
 }
 
 @media screen and (max-width: 768px) {

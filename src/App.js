@@ -16,6 +16,7 @@ function App() {
         <Projects/>
         <Achievements/>
         <Contacts/>
+        
         <img src="./images/wavesOpacity.svg" alt="footerWaves" className="footerWaves"/>
     </div>
   );

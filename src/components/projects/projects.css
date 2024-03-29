@@ -11,6 +11,13 @@
     display: inline-block;
     color: black;
     margin-top: 1.5rem;
+    background: linear-gradient(0deg, white 0%, white 100%);
+}
+
+.gitBtn:hover {
+    box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.4);
+    transform: scale(1.05);
+    background-position: right center;
 }
 
 .demoBtn {
@@ -21,6 +28,15 @@
     border-radius: 0.5rem;
     display: inline-block; 
     color: black;
+    background: linear-gradient(0deg, rgba(20,167,62,1) 0%, rgba(102,247,113,1) 100%);
+    box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+    letter-spacing: 0.05em;
+}
+
+.demoBtn:hover {
+    box-shadow: 0 2px 3px 5px rgb(178, 228, 192) ;
+    transform: scale(1.05);
+    background-position: right center;
 }
 
 .projectLandingPageImg{

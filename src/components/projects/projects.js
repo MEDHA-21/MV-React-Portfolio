@@ -19,6 +19,7 @@ const ProjectCard = ({ name, description, github, link, projectLandingPage }) =>
                         className="git-icon"
                     />
                 </a>
+                
                 <a href={link} target="_blank" rel="noopener noreferrer" className='demoBtn'>
                     <span className="demoText">Demo</span>
                     <img src={linkImg} alt="Link icon" className="link-icon" />
