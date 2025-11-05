@@ -1,35 +1,48 @@
 {
     "Intro": {
         "DownloadCV":"/images/CV.pdf",
-        "introductionStatement": "Front End React developer with 2+ years of experience in designing and building robust frontend applications. Proficient in React, HTML, CSS, Bootstrap, and JavaScript. Strong understanding of PostgreSQL for effective database management. Skilled in Software Testing techniques, ensuring high-quality web-based applications."
+        "introductionStatement": "Results-driven developer with 4 years of experience architecting and implementing scalable, user-centric web applications at Deloitte. Demonstrates expertise in React, JavaScript, and modern frontend frameworks, with a consistent track record of delivering high-impact solutions on mission-critical projects. Recognized for technical leadership, accessibility compliance, and outstanding teamwork through multiple Deloitte SPOT and APPLAUSE awards. Proven ability to resolve complex UI/UX challenges, optimize performance, and mentor team members in fast-paced environments. Seeking to leverage deep React knowledge and a passion for innovation to contribute to ambitious product teams."
     },
     "Experiences": [
         {
-            "projectLandingPage": "/images/myAccess.png",
-            "Project Name":"Florida ACCESS (FL SSP)",
-            "Role": "FRONT END DEVELOPER Deloitte",
-            "Time Period": "JAN 2023- PRESENT",
-            "Description": "Florida ACCESS assists with Cal Fresh, Medi-Cal, CalWORKs, GA/GR etc. Users can apply, renew, appoint a representative, upload documents, report changes, and contact their caseworker.",
-            "Responsibilities": "<ul><li>FL SSP is a comprehensive platform facilitating access to social services.</li><li> Enables users to apply for benefits, renew existing ones, appoint representatives, upload documents, report changes, and communicate with caseworkers seamlessly.</li><li> Managed specific project components to ensure seamless integration with other modules, enhancing overall system efficiency.</li><li> Conducted rigorous ADA, NVDA, and Cross-Browser Testing to ensure the platform’s accessibility for individuals with disabilities.</li><li> Proactively resolved ADA/UI defects, reducing technical debt by 45% and improving overall system reliability.</ll></ul>",
-            "Tools Used": "Visual Studio Code, SourceTree, pgAdmin, Postman, Axe-dev tool, NVDA, Eclipse, FIGMA, Lambda Test"
+            "Project Name":"NextGen Verification Hub",
+            "Role": "FRONT END DEVELOPER - Deloitte",
+            "Time Period": "JUL 2025 - PRESENT",
+            "Description": "NextGen Verification Hub is a comprehensive eligibility verification system with dedicated Admin console and Customer Portal interfaces for managing benefits verification processes.",
+            "Responsibilities": "<ul><li>Independently delivered Admin console screens, establishing base project structure and coding standards from scratch.</li><li>Developed more than 30 individual screens for Customer and Admin Portals with exceptional accuracy and attention to detail.</li><li>Led major UI cleanup and component updates to align with latest FIGMA designs, boosting maintainability and visual consistency across Customer & Admin Portals.</li><li>Designed database tables for new interface integrations and spearheaded AVS Interface backend work.</li><li>Resolved 20+ defects, strengthening system reliability, and performed thorough performance and file upload testing across customer flows.</li><li><strong>Recognition:</strong> Praised for independence, mentorship, and accelerated delivery during critical phases.</li></ul>",
+            "Tools Used": "React, JavaScript, HTML, CSS, PostgreSQL, FIGMA, Visual Studio Code, SourceTree, Postman, JIRA"
         },
         {
-            "projectLandingPage": "/images/nextgen.png",
-            "Project Name":"NextGen 4.0",
-            "Role": "FRONT END DEVELOPER Deloitte",
-            "Time Period": "JULY 2022 TO DEC 2022",
-            "Description": "It is an Integrated Eligibility Project which encompasses both Customer Portal and a Worker Portal. It facilitates users in submitting appeals to the state regarding matters related to health benefits, SNAP, Medicaid, and similar issues.",
-            "Responsibilities": "<ul><li>Integrated Eligibility Project that encompasses both Customer and Worker Portal. </li><li> Facilitates users in submitting appeals to the state regarding health benefits, SNAP, Medicaid, and similar issues. </li><li> Enhanced user experience, contributing to a 20% increase in customer satisfaction ratings. </li><li> Integrated RESTful APIs, optimized data transfers, and employed asynchronous programming to improve data flow efficiency by 35%.</li><li>  Proactively resolved ADA/UI defects, reducing technical debt by 45% and improving overall system reliability.</ll></ul>",
-            "Tools Used": "Visual Studio Code, SourceTree, DBeaver, Postman, IntelliJ, Jaws"
+            "Project Name":"SC Customer Portal",
+            "Role": "FRONT END DEVELOPER - Deloitte",
+            "Time Period": "MAR 2025 - JUL 2025",
+            "Description": "SCCP LIFT Customer Portal enabling citizens to apply for and manage social service benefits with integrated appeals functionality.",
+            "Responsibilities": "<ul><li>Provided architectural guidance and rapid solutions for South Carolina SSP LIFT Functional Flows, including urgent delivery of demo login screens.</li><li>Transformed legacy class components to functional React components to improve scalability and maintainability.</li><li>Delivered over 10 UI screens with backend integrations, and completed Spanish translations for 20+ screens.</li><li>Closed 5+ backlog items and resolved team-critical bugs, supporting a successful and timely Appeals module launch.</li><li>Created unit tests and maintained thorough documentation for deliverables.</li><li><strong>Awards:</strong> SCCP SPOT AWARD, APPLAUSE AWARD for outstanding module delivery and adaptability.</li></ul>",
+            "Tools Used": "React, JavaScript, HTML, CSS, i18next, PostgreSQL, FIGMA, Visual Studio Code, Git, Postman, JIRA"
         },
         {
-            "projectLandingPage": "/images/healthChoice.png",
-            "Project Name":"HealthChoice",
-            "Role": "FRONT-END DEVELOPER AND FUNCTIONAL TESTER / MODULE OWNER Deloitte",
-            "Time Period": "SEPTEMBER 2021 TO JULY 2022",
-            "Description": "HealthChoice provides comprehensive health and dental benefits. It is a State Based Market place which helps Customers to apply for Health Insurance and Shop for Plans if eligible.Workers and Issuers to manage Applications and Applicants.",
-            "Responsibilities": "<ul><li>HealthChoice is an Indian marketplace that helps customers search for health policies and check eligibility. </li><li> Developed compliant UI screens using React.js, reducing load times by 25%. </li><li> Implemented responsive design with media queries and Flexbox for multi-device use and optimized healthcare data processing with Redux. </li><li> Created comprehensive test plans and executed manual tests, ensuring 100% coverage.</ll></ul>",
-            "Tools Used": "Visual Studio Code, SourceTree, JIRA, DBeaver, SoapUI, Jaws, Wave, Strapi"
+            "Project Name":"Michigan - Mobile & Accessibility",
+            "Role": "FRONT END DEVELOPER - Deloitte",
+            "Time Period": "JAN 2025 - MAR 2025",
+            "Description": "Michigan SSP focused on enhancing mobile responsiveness and accessibility compliance for state benefits portal.",
+            "Responsibilities": "<ul><li>Fixed 80+ mobile responsiveness defects and delivered 99% closure of 60+ ADA accessibility issues.</li><li>Optimized React UI by removing redundant DOM structures, improving page load speed by 30%, and fixing 60+ lint errors.</li><li><strong>Awards:</strong> APPLAUSE AWARD for technical excellence and support to SC/MI teams.</li></ul>",
+            "Tools Used": "React, JavaScript, HTML, CSS, AXE DevTools, NVDA, JAWS, Chrome DevTools, Visual Studio Code, JIRA"
+        },
+        {
+            "Project Name":"FL ACCESS",
+            "Role": "FRONT END DEVELOPER - Deloitte",
+            "Time Period": "2023 - PRESENT",
+            "Description": "FL ACCESS comprehensive platform facilitating access to social services including CalFresh, Medi-Cal, CalWORKs, enabling users to apply, renew benefits, and manage case information.",
+            "Responsibilities": "<ul><li>Delivered 40+ user stories, fixed 15+ critical bugs, and ensured accessibility compliance (ADA, NVDA, AXE).</li><li>Contributed to major module (RMB & RAC) stabilization—managed SIT readiness and closed 40+ validation tickets.</li><li>Facilitated onboarding by mentoring and providing knowledge-transfer sessions to new developers.</li><li><strong>Recognition:</strong> Deloitte SPOT and APPLAUSE awards for key contributions to demos, accessibility, and quality delivery.</li></ul>",
+            "Tools Used": "React, JavaScript, HTML, CSS, PostgreSQL, AXE DevTools, NVDA, FIGMA, Visual Studio Code, SourceTree, Postman, Lambda Test"
+        },
+        {
+            "Project Name":"Other Key Projects",
+            "Role": "FRONT END DEVELOPER - Deloitte",
+            "Time Period": "2021 - 2024",
+            "Description": "Additional significant projects demonstrating versatility across multiple state implementations and healthcare platforms.",
+            "Responsibilities": "<ul><li><strong>NextGen RFI & LIFT Enhancement (Feb 2024 - Dec 2024):</strong> Implemented state-specific enhancements across multiple SSP implementations and resolved numerous LIFT-related defects.</li><li><strong>HealthChoice (Sep 2021 - Jul 2022):</strong> Developed compliant UI screens using React.js, reducing load times by 25%, and implemented responsive design for multi-device use.</li><li>Demonstrated strong problem-solving and adaptability in dynamic, cross-state environments while maintaining consistent code quality and documentation standards.</li></ul>",
+            "Tools Used": "React, JavaScript, HTML, CSS, PostgreSQL, Redux, Visual Studio Code, SourceTree, JIRA, FIGMA, DBeaver, SoapUI"
         }
     ],
     "Skills":[
@@ -44,8 +57,7 @@
                 { "name": "JavaScript", "level": "Skilled" },
                 { "name": "GIT", "level": "Intermediate" },
                 { "name": "PostgreSQL", "level": "Intermediate" },
-                { "name": "OracleDB", "level": "Intermediate" },
-                { "name": "Strapi", "level": "Basic" }
+                { "name": "OracleDB", "level": "Intermediate" }
             ]
         },
         {
@@ -73,35 +85,43 @@
     ],
     "Achievements": [
         {
-            "title": "Deloitte APPLAUSE award",
-            "description": "Deloitte APPLAUSE award for playing a key role in achieving critical FL SSP project milestones."
+            "title": "Deloitte APPLAUSE Award (Michigan & SCCP)",
+            "description": "Received APPLAUSE AWARD for exceptional teamwork and technical support across Michigan and SC-CP project teams, demonstrating adaptability and technical excellence."
         },
         {
-            "title": "Deloitte SPOT award",
-            "description": "Deloitte SPOT award for developing demo project with a user-friendly interface and contributed to the product's successful sales"
+            "title": "SC-CP SPOT Award",
+            "description": "Awarded SCCP SPOT AWARD for adaptability in SSP framework and rapid, high-quality UI delivery for the Appeals module, showcasing excellent problem-solving skills."
         },
         {
-            "title": "Deloitte SPOT award",
-            "description": "Deloitte SPOT award for outstanding contribution to the successful FL SSP project demo."
+            "title": "Deloitte APPLAUSE Award (FL Access)",
+            "description": "Received Deloitte APPLAUSE award for playing a pivotal role in achieving critical FL SSP project milestones with leadership and dedication noted by management."
+        },
+        {
+            "title": "Deloitte SPOT Award (FL Access Demo)",
+            "description": "Received Deloitte SPOT award for outstanding contribution to the successful FL Access project demo, demonstrating exceptional presentation and technical skills."
+        },
+        {
+            "title": "Deloitte SPOT Award (Demo Project)",
+            "description": "Awarded Deloitte SPOT award for developing a demo project with a user-friendly interface that contributed to the product's successful sales and client acquisition."
         }
     ],
     "Projects": [
+        {
+            "projectLandingPage": "/images/otakuflix.png",
+            "Name": "OtakuFlix",
+            "description": "A modern, responsive anime streaming platform built with React. Real-time API-powered React anime discovery platform featuring live data from MyAnimeList, smart watchlist management, and responsive design. Built with React 18, real-time API integration, genre filtering, rating stats, and seamless anime browsing experience with trailer support and mobile-optimized interface.",
+            "Github":"https://github.com/MEDHA-21/OtakuFlix",
+            "Link":"https://otaku-flix.netlify.app/"
+        },
         {
             "projectLandingPage": "/images/pawpals.png",
             "Name": "PawPals",
             "description": "Pet Store website crafted with HTML, CSS, Bootstrap, and JS, offering a visually appealing and user-friendly platform for pet enthusiasts.",
             "Github":"https://github.com/MEDHA-21/pawpals",
             "Link":"https://pawpals.netlify.app/"
-        },
-        {
-            "projectLandingPage": "/images/portfolio.png",
-            "Name": "React Portfolio",
-            "description": "Dynamic and responsive React-based portfolio providing an interactive and engaging glimpse into my professional journey.",
-            "Github":"https://github.com/MEDHA-21/MV-React-Portfolio",
-            "Link":"https://mv-react-portfolio.netlify.app/"
         }
     ],
     "ContactMe": {
-        "contactPara": "I'm currently looking for React Developer opening! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to reach out to me at,"
+        "contactPara": "I'm currently looking for React Developer opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to reach out to me at,"
     }
 }

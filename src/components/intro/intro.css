@@ -1,97 +1,267 @@
 #intro {
-    max-width: 95rem;
-    margin: 0 auto;
-    overflow: hidden;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
     position: relative;
-    top: -7rem;
+    overflow: hidden;
 }
 
-.introHeading{
-    font-size: 1.2rem;
-}
-
-.bg {
-    position: absolute;
-    top: -8rem;
-    z-index: -1;
-    right: -5rem;
-    object-fit: cover;
-    height: 110vh;
+.intro-container {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: var(--spacing-md);
+    align-items: center;
+    max-width: 1400px;
+    width: 100%;
+    padding: 0 var(--spacing-lg);
+    animation: fadeInUp 1s ease-out;
 }
 
 .introContent {
-    height: auto;
-    width: 100%;
-    padding: 3rem;
-    font-size: 3rem;
-    font-weight: 700;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    gap: var(--spacing-lg);
+    animation: slideInLeft 1s ease-out;
 }
 
-.hello {
-    font-weight: 100;
-    font-size: large;
+.intro-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
 }
 
-.introName {
-    color: bisque;
+.intro-greeting {
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    color: var(--text-muted);
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.intro-name {
+    font-size: clamp(2.5rem, 6vw, 4.5rem);
+    font-weight: 800;
+    line-height: 1.1;
+    margin: 0;
+}
+
+.gradient-text {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    display: inline-block;
+}
+
+.intro-role {
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    font-weight: 600;
+    color: var(--text-secondary);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+}
+
+.role-text {
+    background: var(--gradient-warm);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.role-cursor {
+    color: var(--primary-color);
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0%, 50% {
+        opacity: 1;
+    }
+    51%, 100% {
+        opacity: 0;
+    }
 }
 
 .introPara {
-    font-size: medium;
-    font-weight: 100;
-    line-height: 1.4rem;
-    max-width: 60%;
+    font-size: clamp(1rem, 2vw, 1.1rem);
+    line-height: 1.8;
+    color: var(--text-secondary);
+    max-width: 800px;
+    margin-top: var(--spacing-sm);
 }
 
-.btn {
-    max-width: 95rem;
-    background: white;
-    margin: 0.5rem 4rem;
-    padding: 0.75rem 1.5rem;
+.btn-container {
+    display: flex;
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-md);
+    flex-wrap: wrap;
+}
+
+.modern-btn {
+    position: relative;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
     border: none;
-    border-radius: 2rem;
-    float: inline-start;
-    color: white;
-    background-image: linear-gradient(135deg, #fcb540 0%, #e59448 100%);
-    box-shadow: 0 7px 22px -2px  rgba(238, 103, 97, 0.5);
-    outline: none;
+    border-radius: var(--radius-md);
     cursor: pointer;
-    border: none;
-    font-size: 15px;
+    overflow: hidden;
+    transition: var(--transition-base);
+    font-family: 'Poppins', sans-serif;
 }
 
-.btn:hover {
-    transform: translateY(3px);
-    box-shadow: none;
+.modern-btn .btn-content {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    position: relative;
+    z-index: 1;
 }
 
-@media screen and (max-width: 768px) {
+.modern-btn .btn-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.primary-btn {
+    background: var(--gradient-primary);
+    color: white;
+    box-shadow: 0 10px 30px rgba(99, 102, 241, 0.3);
+}
+
+.primary-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 40px rgba(99, 102, 241, 0.4);
+}
+
+.primary-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: left 0.5s;
+}
+
+.primary-btn:hover::before {
+    left: 100%;
+}
+
+.secondary-btn {
+    background: transparent;
+    color: var(--text-primary);
+    border: 2px solid var(--primary-color);
+    box-shadow: 0 10px 30px rgba(99, 102, 241, 0.2);
+}
+
+.secondary-btn:hover {
+    background: var(--primary-color);
+    transform: translateY(-3px);
+    box-shadow: 0 15px 40px rgba(99, 102, 241, 0.3);
+}
+
+.intro-image-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: slideInRight 1s ease-out;
+}
+
+.image-backdrop {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: var(--gradient-primary);
+    border-radius: 50%;
+    filter: blur(100px);
+    opacity: 0.3;
+    animation: float 6s ease-in-out infinite;
+}
+
+.bg {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.3));
+    animation: float 6s ease-in-out infinite;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 968px) {
+    .intro-container {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-xl);
+        text-align: center;
+    }
+
     .introContent {
-        padding: 1rem;
+        align-items: center;
+    }
+
+    .intro-text-wrapper {
+        align-items: center;
+    }
+
+    .introPara {
+        text-align: center;
+    }
+
+    .btn-container {
+        justify-content: center;
+    }
+
+    .intro-image-wrapper {
+        order: -1;
     }
 
     .bg {
-        top: -9rem;
-        right: -9rem;
-        height: 80vh;    
+        max-width: 80%;
     }
 
+    .image-backdrop {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 768px) {
     #intro {
-        top: 6rem;
+        padding-top: 80px;
     }
 
-    .btn {
-        float: none;
-        margin: 0.5rem 1rem;
+    .intro-container {
+        padding: 0 var(--spacing-md);
     }
 
-    .introText{
-        font-size: 2rem;
+    .bg {
+        max-width: 90%;
     }
-    .introPara {
-        max-width:100%;
+}
+
+@media screen and (max-width: 480px) {
+    .btn-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .modern-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .bg {
+        max-width: 100%;
+    }
+
+    .image-backdrop {
+        width: 250px;
+        height: 250px;
     }
 }

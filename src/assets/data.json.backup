@@ -1,0 +1,107 @@
+{
+    "Intro": {
+        "DownloadCV":"/images/CV.pdf",
+        "introductionStatement": "Front End React Developer with 4+ years of experience in designing and building robust, scalable frontend applications. Proficient in React, HTML, CSS, Bootstrap, JavaScript, and PostgreSQL. Proven track record of delivering high-quality, accessible web applications with exceptional attention to detail and performance optimization."
+    },
+    "Experiences": [
+        {
+            "projectLandingPage": "/images/myAccess.png",
+            "Project Name":"Florida ACCESS (FL SSP)",
+            "Role": "FRONT END DEVELOPER Deloitte",
+            "Time Period": "JAN 2023- PRESENT",
+            "Description": "Florida ACCESS assists with Cal Fresh, Medi-Cal, CalWORKs, GA/GR etc. Users can apply, renew, appoint a representative, upload documents, report changes, and contact their caseworker.",
+            "Responsibilities": "<ul><li>FL SSP is a comprehensive platform facilitating access to social services.</li><li> Enables users to apply for benefits, renew existing ones, appoint representatives, upload documents, report changes, and communicate with caseworkers seamlessly.</li><li> Managed specific project components to ensure seamless integration with other modules, enhancing overall system efficiency.</li><li> Conducted rigorous ADA, NVDA, and Cross-Browser Testing to ensure the platform’s accessibility for individuals with disabilities.</li><li> Proactively resolved ADA/UI defects, reducing technical debt by 45% and improving overall system reliability.</ll></ul>",
+            "Tools Used": "Visual Studio Code, SourceTree, pgAdmin, Postman, Axe-dev tool, NVDA, Eclipse, FIGMA, Lambda Test"
+        },
+        {
+            "projectLandingPage": "/images/nextgen.png",
+            "Project Name":"NextGen 4.0",
+            "Role": "FRONT END DEVELOPER Deloitte",
+            "Time Period": "JULY 2022 TO DEC 2022",
+            "Description": "It is an Integrated Eligibility Project which encompasses both Customer Portal and a Worker Portal. It facilitates users in submitting appeals to the state regarding matters related to health benefits, SNAP, Medicaid, and similar issues.",
+            "Responsibilities": "<ul><li>Integrated Eligibility Project that encompasses both Customer and Worker Portal. </li><li> Facilitates users in submitting appeals to the state regarding health benefits, SNAP, Medicaid, and similar issues. </li><li> Enhanced user experience, contributing to a 20% increase in customer satisfaction ratings. </li><li> Integrated RESTful APIs, optimized data transfers, and employed asynchronous programming to improve data flow efficiency by 35%.</li><li>  Proactively resolved ADA/UI defects, reducing technical debt by 45% and improving overall system reliability.</ll></ul>",
+            "Tools Used": "Visual Studio Code, SourceTree, DBeaver, Postman, IntelliJ, Jaws"
+        },
+        {
+            "projectLandingPage": "/images/healthChoice.png",
+            "Project Name":"HealthChoice",
+            "Role": "FRONT-END DEVELOPER AND FUNCTIONAL TESTER / MODULE OWNER Deloitte",
+            "Time Period": "SEPTEMBER 2021 TO JULY 2022",
+            "Description": "HealthChoice provides comprehensive health and dental benefits. It is a State Based Market place which helps Customers to apply for Health Insurance and Shop for Plans if eligible.Workers and Issuers to manage Applications and Applicants.",
+            "Responsibilities": "<ul><li>HealthChoice is an Indian marketplace that helps customers search for health policies and check eligibility. </li><li> Developed compliant UI screens using React.js, reducing load times by 25%. </li><li> Implemented responsive design with media queries and Flexbox for multi-device use and optimized healthcare data processing with Redux. </li><li> Created comprehensive test plans and executed manual tests, ensuring 100% coverage.</ll></ul>",
+            "Tools Used": "Visual Studio Code, SourceTree, JIRA, DBeaver, SoapUI, Jaws, Wave, Strapi"
+        }
+    ],
+    "Skills":[
+        {
+            "title": "Frontend Development",
+            "skills": [
+                { "name": "React JS", "level": "Skilled" },
+                { "name": "HTML 5", "level": "Skilled" },
+                { "name": "CSS 3", "level": "Skilled" },
+                { "name": "Bootstrap", "level": "Skilled" },
+                { "name": "Tailwind CSS", "level": "Skilled" },
+                { "name": "JavaScript", "level": "Skilled" },
+                { "name": "GIT", "level": "Intermediate" },
+                { "name": "PostgreSQL", "level": "Intermediate" },
+                { "name": "OracleDB", "level": "Intermediate" },
+                { "name": "Strapi", "level": "Basic" }
+            ]
+        },
+        {
+            "title": "Testing",
+            "skills": [
+                { "name": "Functional Testing", "level": "Skilled" },
+                { "name": "JIRA", "level": "Skilled" },
+                { "name": "JAWS", "level": "Skilled" },
+                { "name": "NVDA", "level": "Skilled" },
+                { "name": "Waves", "level": "Basic" },
+                { "name": "SoapUI", "level": "Intermediate" }
+            ]
+        },
+        {
+            "title": "Other",
+            "skills": [
+                { "name": "VSCode", "level": "Skilled" },
+                { "name": "Sourcetree", "level": "Skilled" },
+                { "name": "Git", "level": "Intermediate" },
+                { "name": "GitHub", "level": "Intermediate" },
+                { "name": "Postman", "level": "Intermediate" },
+                { "name": "Figma", "level": "Basic" }
+            ]
+        }
+    ],
+    "Achievements": [
+        {
+            "title": "Deloitte APPLAUSE award",
+            "description": "Deloitte APPLAUSE award for playing a key role in achieving critical FL SSP project milestones."
+        },
+        {
+            "title": "Deloitte SPOT award",
+            "description": "Deloitte SPOT award for developing demo project with a user-friendly interface and contributed to the product's successful sales"
+        },
+        {
+            "title": "Deloitte SPOT award",
+            "description": "Deloitte SPOT award for outstanding contribution to the successful FL SSP project demo."
+        }
+    ],
+    "Projects": [
+        {
+            "projectLandingPage": "/images/pawpals.png",
+            "Name": "PawPals",
+            "description": "Pet Store website crafted with HTML, CSS, Bootstrap, and JS, offering a visually appealing and user-friendly platform for pet enthusiasts.",
+            "Github":"https://github.com/MEDHA-21/pawpals",
+            "Link":"https://pawpals.netlify.app/"
+        },
+        {
+            "projectLandingPage": "/images/portfolio.png",
+            "Name": "React Portfolio",
+            "description": "Dynamic and responsive React-based portfolio providing an interactive and engaging glimpse into my professional journey.",
+            "Github":"https://github.com/MEDHA-21/MV-React-Portfolio",
+            "Link":"https://mv-react-portfolio.netlify.app/"
+        }
+    ],
+    "ContactMe": {
+        "contactPara": "I'm currently looking for React Developer opening! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to reach out to me at,"
+    }
+}
