@@ -41,15 +41,6 @@ const Navbar = () => {
                         About
                     </Link>
                     <Link 
-                        to="skills" 
-                        className="desktopMenuListItem" 
-                        smooth={true} 
-                        duration={500}
-                        onClick={closeMobileMenu}
-                    >
-                        Skills
-                    </Link>
-                    <Link 
                         to="experience" 
                         className="desktopMenuListItem" 
                         smooth={true} 
@@ -65,7 +56,16 @@ const Navbar = () => {
                         duration={500}
                         onClick={closeMobileMenu}
                     >
-                        Projects
+                        Personal Projects
+                    </Link>
+                    <Link 
+                        to="skills" 
+                        className="desktopMenuListItem" 
+                        smooth={true} 
+                        duration={500}
+                        onClick={closeMobileMenu}
+                    >
+                        Skills
                     </Link>
                     <Link 
                         to="contact" 

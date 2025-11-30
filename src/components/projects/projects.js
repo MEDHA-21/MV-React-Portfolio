@@ -34,7 +34,7 @@ function Projects() {
         <section id='projects'>
             <div>
                 <p className="section__text__p1">Explore My</p>
-                <h1 className="title">Projects</h1>
+                <h1 className="title">Personal Projects</h1>
             </div>
             <div className="experience-section">
                 {projectsData.Projects.map((project, index) => (

@@ -19,7 +19,7 @@ const Intro = () => {
                             <span className="gradient-text">Medha Verma</span>
                         </h1>
                         <h2 className="intro-role">
-                            <span className="role-text">React Developer</span>
+                            <span className="role-text">Frontend React Developer</span>
                             <span className="role-cursor">|</span>
                         </h2>
                         <p className="introPara">{data.Intro.introductionStatement}</p>

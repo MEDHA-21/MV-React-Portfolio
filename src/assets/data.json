@@ -1,27 +1,27 @@
 {
     "Intro": {
-        "DownloadCV":"/images/CV.pdf",
-        "introductionStatement": "Results-driven developer with 4 years of experience architecting and implementing scalable, user-centric web applications at Deloitte. Demonstrates expertise in React, JavaScript, and modern frontend frameworks, with a consistent track record of delivering high-impact solutions on mission-critical projects. Recognized for technical leadership, accessibility compliance, and outstanding teamwork through multiple Deloitte SPOT and APPLAUSE awards. Proven ability to resolve complex UI/UX challenges, optimize performance, and mentor team members in fast-paced environments. Seeking to leverage deep React knowledge and a passion for innovation to contribute to ambitious product teams."
+        "DownloadCV": "/images/CV.pdf",
+        "introductionStatement": "Results-driven developer with 4 years of experience architecting and implementing scalable, user-focused web applications at Deloitte. Expertise in React, JavaScript, and modern frontend frameworks, with a proven record of delivering high-impact solutions on mission-critical projects. Recognized for technical leadership, accessibility compliance, and exceptional teamwork through multiple Deloitte SPOT and APPLAUSE awards. Adept at resolving complex UI/UX challenges, optimizing performance, and mentoring team members in fast-paced environments. Seeking to leverage deep React knowledge and a passion for innovation to contribute to ambitious product teams."
     },
     "Experiences": [
         {
-            "Project Name":"NextGen Verification Hub",
+            "Project Name": "NextGen Verification Hub",
             "Role": "FRONT END DEVELOPER - Deloitte",
             "Time Period": "JUL 2025 - PRESENT",
             "Description": "NextGen Verification Hub is a comprehensive eligibility verification system with dedicated Admin console and Customer Portal interfaces for managing benefits verification processes.",
-            "Responsibilities": "<ul><li>Independently delivered Admin console screens, establishing base project structure and coding standards from scratch.</li><li>Developed more than 30 individual screens for Customer and Admin Portals with exceptional accuracy and attention to detail.</li><li>Led major UI cleanup and component updates to align with latest FIGMA designs, boosting maintainability and visual consistency across Customer & Admin Portals.</li><li>Designed database tables for new interface integrations and spearheaded AVS Interface backend work.</li><li>Resolved 20+ defects, strengthening system reliability, and performed thorough performance and file upload testing across customer flows.</li><li><strong>Recognition:</strong> Praised for independence, mentorship, and accelerated delivery during critical phases.</li></ul>",
+            "Responsibilities": "<ul><li>Built 30+ admin and customer portal screens, setting up project structure and coding standards from the ground up.</li><li>Improved UI consistency and code quality by updating components to match latest FIGMA designs.</li><li>Created database tables and led backend development for new interface integrations.</li><li>Fixed 20+ bugs, increasing system reliability and performance across customer workflows.</li><li>Conducted performance tests and optimized file uploads to ensure smooth user experience.</li></ul>",
             "Tools Used": "React, JavaScript, HTML, CSS, PostgreSQL, FIGMA, Visual Studio Code, SourceTree, Postman, JIRA"
         },
         {
-            "Project Name":"SC Customer Portal",
+            "Project Name": "SC Customer Portal",
             "Role": "FRONT END DEVELOPER - Deloitte",
             "Time Period": "MAR 2025 - JUL 2025",
             "Description": "SCCP LIFT Customer Portal enabling citizens to apply for and manage social service benefits with integrated appeals functionality.",
-            "Responsibilities": "<ul><li>Provided architectural guidance and rapid solutions for South Carolina SSP LIFT Functional Flows, including urgent delivery of demo login screens.</li><li>Transformed legacy class components to functional React components to improve scalability and maintainability.</li><li>Delivered over 10 UI screens with backend integrations, and completed Spanish translations for 20+ screens.</li><li>Closed 5+ backlog items and resolved team-critical bugs, supporting a successful and timely Appeals module launch.</li><li>Created unit tests and maintained thorough documentation for deliverables.</li><li><strong>Awards:</strong> SCCP SPOT AWARD, APPLAUSE AWARD for outstanding module delivery and adaptability.</li></ul>",
+            "Responsibilities": "<ul><li>Provided architectural guidance and rapid solutions for the SCCP project, including urgent delivery of demo login screens.</li><li>Transformed legacy code by converting class components to functional React components, enhancing scalability.</li><li>Delivered and integrated 20+ UI screens with backend functionality, and implemented Spanish translations for 20+ screens.</li><li>Performed codebase cleanup, reducing portal load times by 30%, and modularized code for improved usability and maintainability, contributing to a successful Appeals module launch.</li><li>Developed unit tests and maintained thorough documentation to support ongoing team deliverables.</li><li><strong>Awards:</strong> SCCP SPOT AWARD, APPLAUSE AWARD for outstanding module delivery and adaptability.</li></ul>",
             "Tools Used": "React, JavaScript, HTML, CSS, i18next, PostgreSQL, FIGMA, Visual Studio Code, Git, Postman, JIRA"
         },
         {
-            "Project Name":"Michigan - Mobile & Accessibility",
+            "Project Name": "Michigan - Mobile & Accessibility",
             "Role": "FRONT END DEVELOPER - Deloitte",
             "Time Period": "JAN 2025 - MAR 2025",
             "Description": "Michigan SSP focused on enhancing mobile responsiveness and accessibility compliance for state benefits portal.",
@@ -29,7 +29,7 @@
             "Tools Used": "React, JavaScript, HTML, CSS, AXE DevTools, NVDA, JAWS, Chrome DevTools, Visual Studio Code, JIRA"
         },
         {
-            "Project Name":"FL ACCESS",
+            "Project Name": "FL ACCESS",
             "Role": "FRONT END DEVELOPER - Deloitte",
             "Time Period": "2023 - PRESENT",
             "Description": "FL ACCESS comprehensive platform facilitating access to social services including CalFresh, Medi-Cal, CalWORKs, enabling users to apply, renew benefits, and manage case information.",
@@ -37,49 +37,120 @@
             "Tools Used": "React, JavaScript, HTML, CSS, PostgreSQL, AXE DevTools, NVDA, FIGMA, Visual Studio Code, SourceTree, Postman, Lambda Test"
         },
         {
-            "Project Name":"Other Key Projects",
+            "Project Name": "Other Key Projects",
             "Role": "FRONT END DEVELOPER - Deloitte",
             "Time Period": "2021 - 2024",
             "Description": "Additional significant projects demonstrating versatility across multiple state implementations and healthcare platforms.",
-            "Responsibilities": "<ul><li><strong>NextGen RFI & LIFT Enhancement (Feb 2024 - Dec 2024):</strong> Implemented state-specific enhancements across multiple SSP implementations and resolved numerous LIFT-related defects.</li><li><strong>HealthChoice (Sep 2021 - Jul 2022):</strong> Developed compliant UI screens using React.js, reducing load times by 25%, and implemented responsive design for multi-device use.</li><li>Demonstrated strong problem-solving and adaptability in dynamic, cross-state environments while maintaining consistent code quality and documentation standards.</li></ul>",
+            "Responsibilities": "<ul><li>Delivered 80+ UI screens with backend integration and fixed 50+ bugs, ensuring full accessibility compliance (ADA, NVDA, AXE).</li><li>Played a key role in stabilizing RMB and RAC modules by managing SIT readiness and closing 40+ validation tickets.</li><li>Led a module pod to timely completion and resolution, supporting successful project delivery.</li><li>Mentored and onboarded new developers through targeted knowledge-transfer sessions, promoting team growth and collaboration.</li></ul>",
             "Tools Used": "React, JavaScript, HTML, CSS, PostgreSQL, Redux, Visual Studio Code, SourceTree, JIRA, FIGMA, DBeaver, SoapUI"
         }
     ],
-    "Skills":[
+    "Skills": [
         {
             "title": "Frontend Development",
             "skills": [
-                { "name": "React JS", "level": "Skilled" },
-                { "name": "HTML 5", "level": "Skilled" },
-                { "name": "CSS 3", "level": "Skilled" },
-                { "name": "Bootstrap", "level": "Skilled" },
-                { "name": "Tailwind CSS", "level": "Skilled" },
-                { "name": "JavaScript", "level": "Skilled" },
-                { "name": "GIT", "level": "Intermediate" },
-                { "name": "PostgreSQL", "level": "Intermediate" },
-                { "name": "OracleDB", "level": "Intermediate" }
+                {
+                    "name": "React JS",
+                    "level": "Skilled"
+                },
+                {
+                    "name": "React Redux",
+                    "level": "Intermediate"
+                },
+                {
+                    "name": "React Routers",
+                    "level": "Intermediate"
+                },
+                {
+                    "name": "Prime React",
+                    "level": "Skilled"
+                },
+                {
+                    "name": "HTML 5",
+                    "level": "Skilled"
+                },
+                {
+                    "name": "CSS 3",
+                    "level": "Skilled"
+                },
+                {
+                    "name": "Bootstrap",
+                    "level": "Skilled"
+                },
+                {
+                    "name": "Tailwind CSS",
+                    "level": "Skilled"
+                },
+                {
+                    "name": "JavaScript",
+                    "level": "Skilled"
+                },
+                {
+                    "name": "PostgreSQL",
+                    "level": "Intermediate"
+                },
+                {
+                    "name": "OracleDB",
+                    "level": "Intermediate"
+                }
             ]
         },
         {
             "title": "Testing",
             "skills": [
-                { "name": "Functional Testing", "level": "Skilled" },
-                { "name": "JIRA", "level": "Skilled" },
-                { "name": "JAWS", "level": "Skilled" },
-                { "name": "NVDA", "level": "Skilled" },
-                { "name": "Waves", "level": "Basic" },
-                { "name": "SoapUI", "level": "Intermediate" }
+                {
+                    "name": "Functional Testing",
+                    "level": "Skilled"
+                },
+                {
+                    "name": "JIRA",
+                    "level": "Skilled"
+                },
+                {
+                    "name": "JAWS",
+                    "level": "Skilled"
+                },
+                {
+                    "name": "NVDA",
+                    "level": "Skilled"
+                },
+                {
+                    "name": "Waves",
+                    "level": "Basic"
+                },
+                {
+                    "name": "SoapUI",
+                    "level": "Intermediate"
+                }
             ]
         },
         {
             "title": "Other",
             "skills": [
-                { "name": "VSCode", "level": "Skilled" },
-                { "name": "Sourcetree", "level": "Skilled" },
-                { "name": "Git", "level": "Intermediate" },
-                { "name": "GitHub", "level": "Intermediate" },
-                { "name": "Postman", "level": "Intermediate" },
-                { "name": "Figma", "level": "Basic" }
+                {
+                    "name": "VSCode",
+                    "level": "Skilled"
+                },
+                {
+                    "name": "Sourcetree",
+                    "level": "Skilled"
+                },
+                {
+                    "name": "Git",
+                    "level": "Intermediate"
+                },
+                {
+                    "name": "GitHub",
+                    "level": "Intermediate"
+                },
+                {
+                    "name": "Postman",
+                    "level": "Intermediate"
+                },
+                {
+                    "name": "Figma",
+                    "level": "Basic"
+                }
             ]
         }
     ],
@@ -107,18 +178,25 @@
     ],
     "Projects": [
         {
+            "projectLandingPage": "/images/adititextile.png",
+            "Name": "Aditi Textile",
+            "description": "Developed an e-commerce platform for authentic Sambalpuri clothing using React 18. Implemented personalized recommendations, wishlist functionality, and real-time chat support. Integrated Firebase Authentication (Google Sign-In) and React Router v6 for secure and seamless user experience. Designed a responsive UI with React Icons and CSS3.",
+            "Github": "https://github.com/MEDHA-21/Aditi-Textile",
+            "Link": "https://adititextile.com"
+        },
+        {
             "projectLandingPage": "/images/otakuflix.png",
             "Name": "OtakuFlix",
             "description": "A modern, responsive anime streaming platform built with React. Real-time API-powered React anime discovery platform featuring live data from MyAnimeList, smart watchlist management, and responsive design. Built with React 18, real-time API integration, genre filtering, rating stats, and seamless anime browsing experience with trailer support and mobile-optimized interface.",
-            "Github":"https://github.com/MEDHA-21/OtakuFlix",
-            "Link":"https://otaku-flix.netlify.app/"
+            "Github": "https://github.com/MEDHA-21/OtakuFlix",
+            "Link": "https://otaku-flix.netlify.app/"
         },
         {
             "projectLandingPage": "/images/pawpals.png",
             "Name": "PawPals",
             "description": "Pet Store website crafted with HTML, CSS, Bootstrap, and JS, offering a visually appealing and user-friendly platform for pet enthusiasts.",
-            "Github":"https://github.com/MEDHA-21/pawpals",
-            "Link":"https://pawpals.netlify.app/"
+            "Github": "https://github.com/MEDHA-21/pawpals",
+            "Link": "https://pawpals.netlify.app/"
         }
     ],
     "ContactMe": {
